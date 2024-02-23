@@ -1,0 +1,315 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFL</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+   
+  </head>
+  <body>
+<style>
+  /*icon styles*/
+  .fi-social-facebook {
+    color: dodgerblue;
+    font-size: 2rem;
+  }
+  .fi-social-youtube {
+    color: red;
+    font-size: 2rem;
+  }
+  .fi-social-pinterest {
+    color: darkred;
+    font-size: 2rem;
+  }
+  i.fi-social-instagram {
+    color: brown;
+    font-size: 2rem;
+  }
+  i.fi-social-tumblr {
+    color: navy;
+    font-size: 2rem;
+  }
+  .fi-social-twitter {
+    color: skyblue;
+    font-size: 2rem;
+  }
+
+</style>
+
+<header>
+  <!-- Sub Navigation -->
+         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark" >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/nfl.png" alt="Bootstrap" width="30" height="40">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Scores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Schedule</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Teams</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav> 
+  <!-- /Sub Navigation -->
+
+<br>
+
+  <!-- logo and ad break -->
+  <div class="row">
+    <div class="medium-4 columns">
+      <img src="Images/GameFlowLogo.PNG" alt="company logo">
+    </div>
+    <div height="100px" class="medium-6 columns">
+      <img style="position:relative; left: 90px;" src="Images/Ad.png" alt="">
+    </div>
+  </div>
+  <!-- / logo and ad break -->
+
+  <br>
+
+  <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+  </div>
+
+</header>
+
+<br>
+
+
+
+ <!-- lIVE Games AND GAMEFLOW-->
+<div class="margin row">
+  <div class=" medium-8 columns">
+    <img src="https://img.icons8.com/color/48/null/youtube-live.png" align="left" height="25%"/>
+    <p><video id ="myVideo" width="770" height="433" controls poster="Images/faceoff.jpg" muted loop playsinline>
+        <source src="Videos/Game.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video></p>
+      <script>
+        setTimeout(function() {
+          document.getElementById('myVideo').play();
+        }, 4000); // 4000 milliseconds = 5 seconds
+      </script>
+    <h3 style="font-family:Georgia, 'Times New Roman', Times, serif; color:#013369">Philadelphia Eagles vs Kansas City Chiefs </h3>
+  </div>
+  <div class="padd p-3  bg-opacity-10 border-0   rounded-end medium-4 columns">
+    <h3 style="text-align: center; color: hsl(0, 94%, 50%) ;font-family: 'Times New Roman', Times, serif;"><img src="Images/GameFlowLogo.PNG" alt="company logo"></h3>
+    <p><video id="video" width="360" height="300" controls autoplay playsinline>
+          <source src="Videos/PatrickVideo.mp4" type="video/mp4">
+        </video></p>
+    <div class="row row-cols-2">
+      <button id="button1" class="lef rounded-pill btn btn-outline-dark fa-shake" style="--fa-animation-duration: 10s;" type="button">What was that Interference call?</button>
+      <button id="button2" class="lef rounded-pill btn btn-outline-dark" type="button">Why was that a flag?</button>
+      <button id="button3" class="lef rounded-pill btn btn-outline-dark" type="button">What is a holding call?</button>
+      <button id="button4" class="lef rounded-pill btn btn-outline-dark" type="button">What's Patrick Mahomes' stats? </button>
+    </div>
+    <div style="position: relative; top: 40px;" class=" input-group input-group-rounded">
+      <h3 style="color: black; font-family:'Times New Roman', Times, serif;">Ask me anything?</h3>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+        <button id="button5" class="btn btn-outline-success btn-info rounded-pill" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</div>
+ <!-- /lIVE Games AND GAMEFLOW-->
+<br>
+<hr>
+
+
+ <!-- fEATURES OF GAMEFLOW-->
+<section id="info">
+        <h2 style=" color: #013369; font-family:Georgia, 'Times New Roman', Times, serif ;" class="features">Features of GAMEFLOW</h2>
+        <div class="">
+        <div class="row1-container">
+          <div class="box box-down cyan">
+            <h2>Real-Time game updates</h2>
+            <p>Get connected with students and recuiters targeting HBCUs</p>
+            <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
+          </div>
+  
+          <div class="box red">
+            <h2>AI enabled voice output</h2>
+            <p>A timeline that progresses as you excel</p>
+            <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
+          </div>
+  
+          <div class="box box-down blue">
+            <h2>Fully Interactive</h2>
+            <p>To help you choose your next path.</p>
+            <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
+          </div>
+        </div>
+        <div class="row2-container">
+          <div class="box orange">
+            <h2>Ask any quetions about game while live!</h2>
+            <p>Helps you connect with recruiters at NFL.</p>
+            <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
+          </div>
+        </div>
+        </div>
+  
+      </section>
+
+<br>
+<!-- /fEATURES OF GAMEFLOW-->
+
+
+
+<!-- message -->
+ <div class="message">
+  <h1 class="m1">Message from our freind!</h1>
+  <p><video id="video" width="760" height="428" controls playsinline>
+   <source src="Videos/Steve_wyche.mp4" type="video/mp4">
+ </video></p>
+ </div>
+<!-- message -->
+
+
+
+
+
+<hr>
+
+
+
+
+
+<hr>
+
+<div class="row column">
+  <h4 style="margin: 0;" class="text-center">LATEST STORIES</h4>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="large-8 columns" style="border-right: 1px solid #E3E5E8;">
+
+  <article>
+
+    <div class="row">
+      <div class="large-6 columns">
+        <p><img src="Images/GameFlowLogo.PNG" alt="image for article" alt="article preview image"></p>
+      </div>
+      <div class="large-6 columns">
+        <h5><a href="#">Nfl's GameFlow launces</a></h5>
+        <p>
+          <span><i class="fi-torso"> By Thadeus &nbsp;&nbsp;</i></span>
+          <span><i class="fi-calendar"> 11/23/23 &nbsp;&nbsp;</i></span>
+          <span><i class="fi-comments"> 25 comments</i></span>
+        </p>
+        <p>The anticipated AI driven game time assistant GameFlow launches to US fans and NFL+ subscribers.</p>
+      </div>
+    </div>
+
+
+    </article>
+
+  </div>
+
+
+</div>
+
+<br>
+<hr>
+  <footer>
+  <section id="footer" class="event-footer">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-4 offset-1">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2023 Battle of the Brains, All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/7383c4b2ea.js" crossorigin="anonymous"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    
+  </body>
+</html>
